@@ -1,0 +1,35 @@
+  html {
+    font-size: 10px;
+  }
+  body {
+    background:#000000;
+    font-family: 'helvetica neue';
+    font-weight: 200;
+    font-size: 20px;
+
+  }
+  #words {
+    max-width:500px;
+    margin:50px auto;
+    background:white;
+    border-radius:5px;
+    box-shadow:10px 10px 0 rgba(0,0,0,0.1);
+    padding:1rem 2rem 1rem 5rem;
+    background-size: 100% 3rem;
+    position: relative;
+    line-height:3rem;
+  }
+  p {
+    margin: 0 0 3rem;
+    color: #ff6600;
+  }
+
+  h1{
+    color: #ff3300;
+    display :flex;
+    justify-content: center;
+  }
+
+  #start-button{
+    margin-left: 44%;
+  }
