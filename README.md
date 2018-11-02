@@ -1,14 +1,15 @@
 ## Note It
-An application for creating and finding recipes
+A  javascript note taking application based on voice
+
 ![home](https://github.com/jyl0725/Note-it-Frontend/tree/master/src/assets/home.png)
 
 ## Motivation
-To create an application to find recipes based on ingredient(currently works only if  a recipe contains an ingredients name)
+As the future of tech is moving away from typing and moving toward native speech recognition software. This project is a small sample as for the future of note taking
 
 ## Demo
 A Demo of this project can be found at :
 
-[Youtube](https://www.youtube.com/watch?v=x62FL7pYk9g)
+[Youtube](https://www.youtube.com/watch?v=81jq2OM2rEM)
 
 ## Built with
 
@@ -29,7 +30,7 @@ A Demo of this project can be found at :
 ## Installation
 Run http-server(in project file)
 
-Run BackEnd API(found below) 
+Run BackEnd API(found below)
 
 Allow microphone access on your Browser(currently only support Chrome)
 
