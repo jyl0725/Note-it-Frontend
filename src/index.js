@@ -1,4 +1,5 @@
 
+
 window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 
 const recognition = new SpeechRecognition();
@@ -12,6 +13,9 @@ const key2 = 'earth'
 const key3 = 'fire'
 const key4 = 'air'
 recognition.interimResults = true;
+
+
+
 
 start.addEventListener('click', e =>{
   recognition.addEventListener('result', e =>{
@@ -31,6 +35,13 @@ start.addEventListener('click', e =>{
     takeNote(transcript);
     saveNote(transcript);
     getNotes(transcript);
+    hello(transcript);
+    hello1(transcript);
+    hello2(transcript);
+    hello3(transcript);
+    hello4(transcript);
+    hello5(transcript);
+
 
     if (transcript.includes('get the weather')){
       fetch('http://api.openweathermap.org/data/2.5/weather?id=5128581&APPID=9a1972fde4fc073ef8f36f03fd7eddeb')
@@ -106,6 +117,7 @@ const noteGetter = (allNotes) =>{
     container.innerHTML += `<p>${note.content}</p>`
   })
 }
+
 
 recognition.addEventListener('end', recognition.start)
 
