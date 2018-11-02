@@ -1,7 +1,7 @@
 ## Note It
 A  javascript note taking application based on voice
 
-![home](https://github.com/jyl0725/Note-it-Frontend/tree/master/src/assets/home.png)
+![home](https://github.com/jyl0725/Note-it-Frontend/blob/master/src/assets/home.png?raw=true)
 
 ## Motivation
 As the future of tech is moving away from typing and moving toward native speech recognition software. This project is a small sample as for the future of note taking
