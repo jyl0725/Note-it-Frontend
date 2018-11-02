@@ -27,11 +27,9 @@ A Demo of this project can be found at :
 * Get the weather: display weather in NYC.
 
 ## Installation
-Run NPM install
+Run http-server(in project file)
 
-Run NPM start
-
-Run BackEnd API(found below)
+Run BackEnd API(found below) 
 
 Allow microphone access on your Browser(currently only support Chrome)
 
